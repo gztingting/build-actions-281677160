@@ -4,31 +4,6 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
-pushd package/lean
-git clone https://github.com/gztingting/luci-theme-argon-dark-mod
-#git clone https://github.com/kenzok8/luci-theme-ifit
-git clone https://github.com/DevOpenWRT-Router/luci-app-rebootschedule
-git clone https://github.com/gztingting/luci-app-fileassistant
-#svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliyundrive-webdav
-#svn co https://github.com/281677160/openwrt-package/tree/lede/cdnspeedtest
-#svn co https://github.com/281677160/openwrt-package/tree/lede/luci-app-cloudflarespeedtest
-#svn co https://github.com/281677160/openwrt-package/tree/lede/alist
-#svn co https://github.com/281677160/openwrt-package/tree/lede/luci-app-alist
-#svn co https://github.com/281677160/openwrt-package/tree/lede/syncthing
-#svn co https://github.com/281677160/openwrt-package/tree/lede/luci-app-syncthing
-#svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
-#git clone https://github.com/sirpdboy/luci-app-autotimeset
-#git clone https://github.com/fw876/helloworld
-#svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
-#git clone https://github.com/awesome-openwrt/luci-app-syncthing
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
-#git clone https://github.com/281677160/openwrt-passwall
-#git clone https://github.com/xiaorouji/openwrt-passwall.git -b packages ./passwall_package
-#git clone https://github.com/xiaorouji/openwrt-passwall.git -b luci ./passwall
-#cp -rf ./passwall_package/* ./passwall
-#rm -rf ./passwall_package
-popd
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.50.1"            # 修改openwrt后台地址(填0为关闭)
